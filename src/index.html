@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Alura</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="/img/Logo.png" alt="logo de Alura" class="header_img">
+        
+    </header>
+
+    <main class="presentacion">
+        <div class="caja_texto_wrapper">
+            <textarea id="textoEntrada" placeholder="Ingrese el texto aquí" class="caja_texto"></textarea>
+            <div class="info">
+                <i class="fa-solid fa-circle-exclamation info_icon"></i>
+                <p class="info_text" >Solo letras minúsculas y sin acento</p>
+            </div>
+            <div class="botones">
+                <button id="btnEncriptar" class="boton_encriptar">Encriptar</button>
+                <button id="btnDesencriptar" class="boton_desencriptar">Desencriptar</button>
+                
+            </div>
+        </div>
+        <div class="caja_texto_2_wrapper">
+            <textarea id="textoSalida" readonly class="caja_texto_2"></textarea>
+            <button id="btnCopiar" class="boton_copiar">Copiar</button>
+        </div>
+        
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>
