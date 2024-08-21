@@ -4,6 +4,7 @@ const btnEncriptar = document.querySelector('#btnEncriptar');
 const btnDesencriptar = document.querySelector('#btnDesencriptar');
 const btnCopiar = document.querySelector('#btnCopiar');
 
+
 const mapeoEncriptacion = {
     'e': 'enter',
     'i': 'imes',
